@@ -10,9 +10,9 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" Component={Login} />
-        <Route path="/books" Component={Books} />
-        <Route path="/books/new" Component={NewBook} />
+        <Route path="/" element={<Login />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/books/new" element={<NewBook />} />
 
       </Routes>
     </BrowserRouter>
